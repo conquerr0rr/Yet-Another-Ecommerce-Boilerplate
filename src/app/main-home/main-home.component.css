@@ -1,0 +1,99 @@
+.slider{
+    height: 85vh;
+    width: 100vw;
+    background-image: url("../../assets/images/mountains_fog_clouds_156107_2560x1440.jpg");
+    background-size: cover;
+}
+
+.data{
+    z-index: 3;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.data h1{
+    font-family: 'Montserrat';
+    font-size: 50px;
+}
+
+.data h2{
+    font-size: 25px;
+}
+
+.slider button{
+    background-color:darkslategray;
+    outline:none;
+    color:white;
+    margin-top: 4%;
+    font-size: 1rem;
+    font-weight: 400;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+}
+
+/* EXPLORE STARTS HERE */
+.explore{
+    background-color: rgb(187, 214, 221);
+}
+
+.explore h1{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 40px;
+    /* margin-top: 2%; */
+    font-family: 'Montserrat';
+}
+
+.explore .explore-text{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    /* background-color: red; */
+    font-family: Roboto;
+}
+
+.explore .explore-boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.explore .box{
+    height: 200px;
+    margin: 4% 1% 0px 1%;
+    background-color: white;
+    width: 390px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.explore .box:hover{
+    background-color: rgb(160, 159, 159);
+    cursor: pointer;
+    color: white;
+    transition: 0.5s ease;
+}
+.explore span{
+   align-self: center;
+   width: 25%;
+   margin-left: 2%;
+   font-family: 'Montserrat';
+   font-weight: 600;
+   font-size:1.1rem;
+   margin-right: 2%;
+}
+.explore .box img{
+    height: 200px;
+    margin-left: 3%;
+    width: 200px;
+}
+/* EXPLORE ENDS HERE */
+
+
+/* .slider img{
+    height: 100%;
+    width: 100%;
+  
+} */

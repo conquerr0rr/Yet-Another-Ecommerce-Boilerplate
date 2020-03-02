@@ -1,0 +1,104 @@
+.headertop{
+    display: inline-block;
+    background-color: 	#C4D1DA;
+    width: 100vw;
+}
+*{
+    outline: none;
+}
+
+.logo,.searchbar,.navitems{
+    display: inline-block;
+    color:black;
+    margin:1rem;
+    cursor: pointer;
+}
+
+.logo span{
+    font-family: 'Montserrat Black';
+    font-size: 2rem;
+}
+
+.searchbar{
+    margin-left: 24%;
+}
+
+.searchbar button{
+    position: relative;
+    top: 7px;
+}
+
+.searchbar input{
+    height: 1.5rem;
+    width: 25vw;
+    border-color:  transparent;
+    /* border-bottom-color: black; */
+    background: transparent;
+    outline: none;
+}
+
+
+
+.searchbar input::placeholder{
+    color:grey;
+    font-size: 1rem;
+}
+
+
+.searchbar input::-webkit-input-placeholder{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+}
+
+.searchbar{
+    border-bottom: 1px solid black;
+}
+
+.searchbar button{
+    border: transparent;
+    background-color: transparent;
+}
+
+
+.navitems{
+    float: right;
+}
+
+.navitems li img{
+    height: 1.5rem;
+    /* display: inline-block; */
+
+    position: relative;
+    left: 30%;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    color: darkslategray;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.headerbottom{
+    display: inline-block;
+    background-color: 	#C4D1DA;
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.headerbottom ul li{
+    margin-left: 2rem;
+    /* margin-right: 2rem; */
+}
+
+
+/* RESPONSIVE */
+
+/* PUT INSIDE THE LI */
+/* display: flex;
+justify-content: center; */
