@@ -1,104 +1,114 @@
-.headertop{
+.headertop {
     display: inline-block;
-    background-color: 	#C4D1DA;
-    width: 100vw;
+    background-color: #C4D1DA;
+    width: 100%;
 }
-*{
+
+* {
     outline: none;
 }
 
-.logo,.searchbar,.navitems{
+.logo,
+.searchbar,
+.navitems {
     display: inline-block;
-    color:black;
-    margin:1rem;
+    color: black;
+    margin: 1rem;
     cursor: pointer;
 }
 
-.logo span{
-    font-family: 'Montserrat Black';
+.logo span {
+    font-family: 'Montserrat';
     font-size: 2rem;
+    font-weight: 900;
 }
 
-.searchbar{
+.searchbar {
     margin-left: 24%;
 }
 
-.searchbar button{
+.searchbar button {
     position: relative;
     top: 7px;
 }
 
-.searchbar input{
+.searchbar input {
     height: 1.5rem;
     width: 25vw;
-    border-color:  transparent;
+    border-color: transparent;
     /* border-bottom-color: black; */
     background: transparent;
     outline: none;
 }
 
-
-
-.searchbar input::placeholder{
-    color:grey;
+.searchbar input::placeholder {
+    color: grey;
     font-size: 1rem;
 }
 
-
-.searchbar input::-webkit-input-placeholder{
+.searchbar input::-webkit-input-placeholder {
     font-family: 'Roboto';
     font-size: 1rem;
-    letter-spacing: 0.8px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
 }
 
-.searchbar{
-    border-bottom: 1px solid black;
+.searchbar {
+    border-bottom: 0.3px solid black;
 }
 
-.searchbar button{
+.searchbar button {
     border: transparent;
     background-color: transparent;
 }
 
-
-.navitems{
+.navitems {
     float: right;
 }
 
-.navitems li img{
+.navitems li img {
     height: 1.5rem;
     /* display: inline-block; */
-
     position: relative;
     left: 30%;
 }
 
-header ul li{
+header ul li {
     display: inline-block;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     color: darkslategray;
     font-size: 0.9rem;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
-.headerbottom{
+.headerbottom {
     display: inline-block;
-    background-color: 	#C4D1DA;
-    width: 100vw;
-    height: 2rem;
+    background-color: #bac6cf;
+    width: 100%;
+    /* height: 3vh; */
     display: flex;
     justify-content: center;
 }
 
-.headerbottom ul li{
+.headerbottom ul li {
     margin-left: 2rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: pointer;
     /* margin-right: 2rem; */
+}
+
+.headerbottom ul li:hover {
+    color: rgb(0, 0, 0);
 }
 
 
 /* RESPONSIVE */
 
+
 /* PUT INSIDE THE LI */
+
+
 /* display: flex;
 justify-content: center; */
